@@ -154,7 +154,7 @@ public void setDept(HDept dept) {
 
 查询结果：
 
-![查询结果](.\001.png)
+![查询结果](./001.png)
 
 2.分两个sql语句查询
 
@@ -178,7 +178,7 @@ public void setDept(HDept dept) {
 
 第一次：先将HUser查询出来，得到它的did字段，将did的值作为参数传入HDeptMapper的selectByPrimaryKey(short id)方法中，第二次：查询出对应的HDept信息
 
-![结果2](.\002.png)
+![结果2](./002.png)
 
 #### 多对多
 
